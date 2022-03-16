@@ -61,3 +61,36 @@ body {
     height: 47px;
     border: 1px; 
 }
+
+.label-genre{
+    font-size: 14px;
+}
+
+.box-genre{
+    display: flex;
+    margin-bottom: 23px;
+}
+
+.label-email{
+    font-size: 14px;
+}
+
+.box-email{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 51px;
+
+}
+
+.label-password{
+    font-size: 14px;
+}
+
+.box-password{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 51px;
+    width: 208px;
+    height: 47px;
+    border: 1px; 
+}
