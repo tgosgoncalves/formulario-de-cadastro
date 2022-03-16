@@ -18,6 +18,46 @@ body {
     margin-bottom: 22px;
     font-weight: 700;    
 }
-.label-text{
+
+.label-field{
     font-size: 14px;
+}
+
+.box{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 22px;
+    width: 396px;
+    height: 47px;
+    border: 1px;
+}
+
+.label-field{
+    font-size: 14px;
+}
+
+.label-date{
+    font-size: 14px;
+}
+
+.box-date{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 51px;
+    width: 170px;
+    height: 47px;
+    border: 1px;
+}
+
+.label-country{
+    font-size: 14px;
+}
+
+.box-country{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 51px;
+    width: 208px;
+    height: 47px;
+    border: 1px; 
 }

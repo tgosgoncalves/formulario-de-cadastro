@@ -17,21 +17,25 @@
 
 <body>
     <h1 class="title">Faça seu cadastro </h1>
-    <div>
-        <label class="label-text" for="name-field">Nome completo</label>
+    <div class="box">
+        <label class="label-field" for="name-field">Nome completo</label>
         <input type="text" placeholder="Digite seu nome completo" id="name-field">
     </div>
 
-    <label>Data de nascimento</label>
-    <input type="date">
+    <div class="box-date">
+    <label class="label-date" for="start-date">Data de nascimento</label>
+    <input type="date" id="start-date" id="start-date">
+</div>
 
-    <label>Pais</label>
+<div class="box-country">
+    <label class="label-country" for="select-country">Pais</label>
     <select>
         <option>Selecionar</option>
         <option>Brasil</option>
         <option>Argentina</option>
         <option>Chile</option>
     </select>
+</div>
 
     <label>Genêro</label>
     <input type="radio" name="input-genre" id>
