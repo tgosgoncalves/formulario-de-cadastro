@@ -94,3 +94,39 @@ body {
     height: 47px;
     border: 1px; 
 }
+
+.label-check-password{
+    font-size: 14px;
+}
+
+.box-check-password{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 51px;
+    width: 396px;
+    height: 47px;
+    border: 1px; 
+}
+
+.input-check{
+    width: 18px;
+    height: 18px;
+}
+
+.terms{
+    font-size: 14px;
+    display: flex;
+    margin-bottom: 28px;
+    width: 396px;
+    height: 47px;
+    border: 1px; 
+}
+
+
+
+.button{
+    background-color: #3F3D56;
+    border-radius: 5px;
+    width: 396px;
+    height: 47px;
+}

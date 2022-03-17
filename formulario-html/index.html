@@ -12,7 +12,10 @@
     <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,500;1,700&display=swap"
         rel="stylesheet">
 
-    <link href="./styles.css" rel="stylesheet" </head>
+    <link href="./styles.css" rel="stylesheet" 
+<link href="./termos.html" rel="termos.html" id="identificador"
+
+</head>
 
 
 <body>
@@ -50,21 +53,26 @@
         <label class="label-email" for="email-field">E-mail</label>
         <input type="text" placeholder="Digite seu e-mail">
     </div>
-    
+
     <div class="box-password">
-    <label class="label-password" for="password-field">Senha</label>
-    <input type="password" placeholder="Crie uma senha">
+        <label class="label-password" for="password-field">Senha</label>
+        <input type="password" placeholder="Crie uma senha">
     </div>
 
-    <label>Confirme sua senha</label>
-    <input type="password" placeholder="Digite seu nome completo">
+    <div class="box-check-password">
+        <label class="label-check-password" for="check-password">Confirme sua senha</label>
+        <input type="password" placeholder="Digite seu nome completo">
+    </div>
 
-    <input type="checkbox">
-    <p>
-        Aceito os termos e condições e concordo com as politicas deprivacidade do Hall to Code.
-    </p>
 
-    <button>Cadastrar</button>
+    <div class="terms">
+        <input class="input-check" type="checkbox">
+        <p>
+            <id rel="identificador">Aceito os termos e condições</id> e concordo com as politicas deprivacidade do Hall to Code.
+        </p>
+    </div>
+
+    <button class="button" form="text-button">Cadastrar</button>
 
     <p>
         Já tem uma conta no Hall to Code? Entre agora
