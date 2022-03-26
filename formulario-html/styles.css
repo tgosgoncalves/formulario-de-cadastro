@@ -6,6 +6,44 @@
     font-weight: 400;
 }
 
+
+.container{
+    display: flex;
+    flex-direction: column;
+    max-width: 396px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* meu codigo - checar dps
+
 body {
     display: flex;
     justify-content: center;
@@ -129,4 +167,4 @@ body {
     border-radius: 5px;
     width: 396px;
     height: 47px;
-}
+}*/
